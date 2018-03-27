@@ -15,7 +15,7 @@ apply plugin: 'com.jfrog.bintray'
 
 dependencies {
   compile project(':libs:SmartSync')
-  compile 'com.facebook.react:react-native:0.43.1'
+  compile 'com.facebook.react:react-native:0.35.0'
 }
 
 android {
@@ -39,7 +39,7 @@ android {
     exclude 'META-INF/DEPENDENCIES'
     exclude 'META-INF/NOTICE'
   }
-  
+
   lintOptions {
     abortOnError false
   }
